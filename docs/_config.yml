@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
 title: "KVQA: Korean Visual Question Answering"
-show_downloads: "true"
+description: Visual question answering for socially-marginalized Korean 
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
