@@ -3,3 +3,5 @@ description: 한글을 사용하는 시각장애인들을 위한 시각 질의 �
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+github:
+  zip_url: https://skt.ai
