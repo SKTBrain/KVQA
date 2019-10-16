@@ -34,21 +34,18 @@ KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 �
 
 # 논문
 
-<dl>
-<dt>AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)</dt>
-<dd>![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)</dd>
-<dd>To appear</dd>
-<dt>Bilinear Attention Networks (Kim et al., 2018)</dt>
-<dd>![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)</dd>
-<dd>[Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)</dd>
-</dl>
+## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
+
+![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
+To appear
+
+## Bilinear Attention Networks (Kim et al., 2018)
+
+![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)
+[Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)
 
 # 라이센스
 
 * Korean VQA License for the KVQA Dataset
 * Creative Commons License Deed ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko)) for the VizWiz subset
 * GNU GPL v3.0 for the Code
-
-# 감사의 글
-
-데이터 수집에 도움을 주신 [테스트웍스](http://www.testworks.co.kr/page/overview) 관계자 분들께 감사의 말씀을 드립니다.
