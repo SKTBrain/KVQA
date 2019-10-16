@@ -1,5 +1,5 @@
-title: KVQA - Korean Visual Question Answering
-description: Visual question answering for socially-marginalized Korean 
+title: KVQA Dataset
+description: 한글을 사용하는 시각장애인들을 위한 시각 질의 응답 데이터셋
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
