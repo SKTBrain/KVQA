@@ -32,4 +32,13 @@ KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 �
 | 질문 수     | 30,031 (100) | 2,025 (6.74) | 2,029 (6.76) | 20,472 (68.17) | 5,505 (18.33) |
 | 답변 수     | 300,310 (100)| 20,250 (6.74)| 20,290 (6.76)| 204,720 (68.17)| 55,050 (18.33)|
 
+# 논문
 
+<dl>
+<dt>AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)</dt>
+<dd>![AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)](assets/img/AISG_NeurIPS_2019_KVQA.png)</dd>
+<dd>To appear</dd>
+<dt>Bilinear Attention Networks (Kim et al., 2018)</dt>
+<dd>![Bilinear Attention Networks (Kim et al., 2018)](assets/img/BAN_NeurIPS_2018.png)</dd>
+<dd>[Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)</dd>
+</dl>
