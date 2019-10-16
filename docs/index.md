@@ -138,13 +138,13 @@ KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 �
 
 ## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
 
-![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
 To appear
+![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
 
 ## Bilinear Attention Networks (Kim et al., 2018)
 
-![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)
 [Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)
+![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)
 
 # 라이센스
 
