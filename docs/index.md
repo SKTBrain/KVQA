@@ -32,6 +32,99 @@ KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 �
 | 질문 수     | 30,031 (100) | 2,025 (6.74) | 2,029 (6.76) | 20,472 (68.17) | 5,505 (18.33) |
 | 답변 수     | 300,310 (100)| 20,250 (6.74)| 20,290 (6.76)| 204,720 (68.17)| 55,050 (18.33)|
 
+### 시각적 질의응답 데이터 설명 및 예시
+| Name                                      | Type     | Description                                                  |
+| ----------------------------------------- | -------- | ------------------------------------------------------------ |
+| VQA                                       | `[dict]` | 시각적 질의응답 정보를 담은 `dict`의 `list`                     |
+| &nbsp;&nbsp;image                         | `str`    | 이미지 파일의 이름                                             |
+| &nbsp;&nbsp;source                        | `str`    | 데이터의 출처 `("kvqa", "vizwiz")`                            |
+| &nbsp;&nbsp;answers                       | `[dict]` | 응답 정보를 담은 `dict` 10개의 `list`                          |
+| &nbsp;&nbsp;&nbsp;&nbsp;answer            | `str`    | 시각적 질의에 대한 응답                                        |
+| &nbsp;&nbsp;&nbsp;&nbsp;answer_confidence | `str`    | 응답에 대한 신뢰도 `("yes", "maybe", "no")`                    |
+| &nbsp;&nbsp;question                      | `str`    | 이미지에 관련한 질의                                           |
+| &nbsp;&nbsp;answerable                    | `int`    | 응답 가능 여부 `(0, 1)`                                       |
+| &nbsp;&nbsp;answer_type                   | `str`    | 응답의 종류 `("number", "yes/no", "unanswerable", "other")`   |
+
+```json
+[{
+        "image": "KVQA_190712_00143.jpg",
+        "source": "kvqa",
+        "answers": [{
+            "answer": "피아노",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "피아노",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "피아노 치고있다",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "unanswerable",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "게임",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "피아노 앞에서 무언가를 보고 있음",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "피아노치고있어",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "피아노치고있어요",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "피아노 연주",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "피아노 치기",
+            "answer_confidence": "yes"
+        }],
+        "question": "방에 있는 사람은 지금 뭘하고 있지?",
+        "answerable": 1,
+        "answer_type": "other"
+    },
+    {
+        "image": "VizWiz_train_000000008148.jpg",
+        "source": "vizwiz",
+        "answers": [{
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "티비 리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "maybe"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }, {
+            "answer": "리모컨",
+            "answer_confidence": "yes"
+        }],
+        "question": "이것은 무엇인가요?",
+        "answerable": 1,
+        "answer_type": "other"
+    }
+]
+```
+
 # 논문
 
 ## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
