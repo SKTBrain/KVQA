@@ -5,8 +5,8 @@
 
 이 코드 저장소는 우리말로 시각적 질의응답을 수행할 수 있도록 수집된 _KVQA_ 데이터셋을 학습할 수 있도록 [Bilinear Attention Networks](http://arxiv.org/abs/1805.07932) 모델을 구현하였습니다.
 
-![Examples of KVQA](misc/kvqa_examples.png)
-![Overview of bilinear attention networks](misc/ban_overview.png)
+![Examples of KVQA](docs/assets/img/kvqa_examples.png)
+![Overview of bilinear attention networks](docs/assets/img/ban_overview.png)
 
 5회 교차 검증을 한 후 평균 점수는 다음 표와 같습니다.
 
