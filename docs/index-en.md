@@ -4,23 +4,24 @@ title: KVQA Dataset
 description: Visual question answering dataset for visually-impaired Korean 
 ---
 
-Back to in [한글](./).
+Back to [Korean](./).
 
-SK텔레콤은 사회적 가치 추구를 위한 다양한 사업을 진행하고 있습니다. 기업이 먼저 앞장서서 사회 속에 혼재된 사회적 이슈를 발굴하고, 이를 해결하기 위한 사회적 책임을 지는 것이 지속가능한 경영의 출발이라고 생각합니다.
+SK Telecom pursues goals of adding social value to our society through various projects. We believe that the first step for sustainable development in management is to take the lead and discover social issues, and then offer solutions in full responsibility.
 
-2019년 4월부터 이 기술의 현지화를 위해 사회적 기업인 [테스트웍스](http://www.testworks.co.kr)와 협업하여 자발적으로 지원한 우리나라의 시각장애인들로부터 데이터를 수집하였고, 영문으로 공개된 [VizWiz 데이터셋](https://vizwiz.org/tasks-and-datasets/vqa/) 중 현지화가 가능한 일부를 한국어로 번역하여 시각적 질의응답 기술을 한국어로 학습시킬 수 있는 데이터셋을 만들었습니다.
+Since April 2019, we initiated a project in cooperation with [Testworks] (http://www.testworks.co.kr), a social enterprise in Korea and started to collect data from the blind people who volunteered in participating the project. Furthermore, we translated certain part of the published VizWiz dataset (https://vizwiz.org/tasks-and-datasets/vqa/) which can be also applicable within the Korean context, and create the full dataset to train Visual Question Answering (VQA) models in Korean language.
 
 # Visual question answering
 
-시각적 질의응답은 이미지가 주어지고 그 이미지에 대한 질문이 주어졌을 때, 이미지를 이해하여 자연어로 질문에 대한 답을 주는 기술입니다.
+VQA understands provided images and if a person asks question about them, it provides an answer after understanding the images via natural language. 
 
 ![VQA](assets/img/vqa.png)
 
 # KVQA dataset
 
-KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 프로젝트의 일환으로서, 한국형 시각적 질의응답(Visual Question Answering) 데이터셋입니다. KVQA 데이터셋은 한국 시각장애인들이 찍은 사진과 그 사진에 대한 질문과 서로 다른 열 명의 복수 답으로 구성되어 있습니다.
-현재는 총 3만 건의 이미지와 질문, 그리고 30만 건의 답변으로 구성되어 있으나, 올해 말까지 10만 건의 이미지와 질문, 그리고 100만 건의 답변으로 증대할 예정입니다.
-본 데이터셋은 교육 및 연구목적으로 사용이 가능하며, 자세한 내용은 첨부된 라이선스를 참조해주시기 바랍니다. KVQA 데이터셋을 통해 한국형 시각적 질의응답 기술 발전과 사회적 가치를 동시에 추구할 수 있기를 바랍니다.
+As part of T-Brain’s projects on social value, KVQA dataset, a Korean version of VQA dataset was created. KVQA dataset consists of photos taken by Korean visually impaired people, questions about the photos, and 10 different answers for each question.
+Currently, it consists of 30,000 sets of image and question, and 300,000 answers, but by the end of this year, we will increase the dataset size to 100,000 sets of image and question, and 1 million answers.
+This dataset can be used only for educational and research purposes. Please refer to the attached license for more details. We hope that the KVQA dataset can simultaneously provide an opportunity for further development of Korean VQA technology as well as social value in our society.
+
 
 ![Examples of KVQA](assets/img/kvqa_examples.png)
 
@@ -36,7 +37,7 @@ KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 �
 
 ## Evaluation
 
-한 질문 당 열 명의 서로 다른 사람들로부터 수집된 답을 이용해 정확도를 측정합니다. 열 개의 답변 중 3개 이상을 맞추었다면 100%가 되며 3개 미만일 때 비례적으로 부분 점수를 획득합니다. To be consistent with ‘human accuracies’, measured accuracies are averaged over all 10 choose 9 sets of human annotators. Please refer to [VQA Evaluation](https://visualqa.org/evaluation.html) which we follow.
+We measure accuracy using answers collected from 10 different people for each question. If VQA provides 3 or more correct answers from the 10 answers, it gets 100%, and if less than 3, it gets a partial score proportionately. To be consistent with ‘human accuracies’, measured accuracies are averaged over all 10 choose 9 sets of human annotators. Please refer to [VQA Evaluation](https://visualqa.org/evaluation.html) which we follow.
 
 ## Data
 
