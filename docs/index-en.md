@@ -8,7 +8,7 @@ Back to [Korean](./).
 
 SK Telecom pursues goals of adding social value to our society through various projects. We believe that the first step for sustainable development in management is to take the lead and discover social issues, and then offer solutions in full responsibility.
 
-Since April 2019, we initiated a project in cooperation with [Testworks] (http://www.testworks.co.kr), a social enterprise in Korea and started to collect data from the blind people who volunteered in participating the project. Furthermore, we translated certain part of the published VizWiz dataset (https://vizwiz.org/tasks-and-datasets/vqa/) which can be also applicable within the Korean context, and create the full dataset to train Visual Question Answering (VQA) models in Korean language.
+Since April 2019, we initiated a project in cooperation with [Testworks] (http://www.testworks.co.kr), a social enterprise in Korea and started to collect data from the blind people who volunteered in participating the project. Furthermore, we translated certain part of the published VizWiz dataset (https://vizwiz.org/tasks-and-datasets/vqa/) which can be also applicable within the Korean context, and create a full dataset to train Visual Question Answering (VQA) models in Korean language.
 
 # Visual question answering
 
