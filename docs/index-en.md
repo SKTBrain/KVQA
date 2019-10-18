@@ -37,7 +37,7 @@ This dataset can be used only for educational and research purposes. Please refe
 
 ## Evaluation
 
-We measure the model's accuracy by using answers collected from 10 different people for each question. If the answer provided by a VQA model is equal to 3 or more answers from 10 annotators, it gets 100%, and if less than 3, it gets a partial score proportionately. To be consistent with ‘human accuracies’, measured accuracies are averaged over all 10 choose 9 sets of human annotators. Please refer to [VQA Evaluation](https://visualqa.org/evaluation.html) which we follow.
+We measure the model's accuracy by using answers collected from 10 different people for each question. If the answer provided by a VQA model is equal to 3 or more answers from 10 annotators, it gets 100%; if less than 3, it gets a partial score proportionately. To be consistent with ‘human accuracies’, measured accuracies are averaged over all 10 choose 9 sets of human annotators. Please refer to [VQA Evaluation](https://visualqa.org/evaluation.html) which we follow.
 
 ## Data
 
