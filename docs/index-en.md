@@ -12,7 +12,7 @@ Since April 2019, we initiated a project in cooperation with [Testworks](http://
 
 # Visual question answering
 
-VQA understands a provided image and if a person asks question about this, it provides an answer after analyzing(or reasoning) the image via natural language. 
+VQA understands a provided image and if a person asks question about this, it provides an answer after analyzing (or reasoning) the image via natural language. 
 
 ![VQA](assets/img/vqa.png)
 
