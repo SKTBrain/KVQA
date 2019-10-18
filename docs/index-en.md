@@ -6,13 +6,13 @@ description: Visual question answering dataset for visually-impaired Korean
 
 Back to [Korean](./).
 
-SK Telecom pursues goals of adding social value to our society through various projects. We believe that the first step for sustainable development in management is to take the lead and discover social issues, and then offer solutions in full responsibility.
+SK Telecom pursues a goal of adding social value to our society through various projects. We believe that the first step for sustainable development in management is to take the lead and discover social issues, and then offer responsible solutions.
 
-Since April 2019, we initiated a project in cooperation with [Testworks](http://www.testworks.co.kr), a social enterprise in Korea, and started to collect data from the blind people who volunteered in participating this project. Furthermore, we translated a part of the published [VizWiz dataset](https://vizwiz.org/tasks-and-datasets/vqa/) which can be also applicable within the Korean context, and create a full dataset to train Visual Question Answering (VQA) models in Korean language.
+Since April 2019, we initiated a project in cooperation with [Testworks](http://www.testworks.co.kr), a social enterprise in Korea, and started to collect data from the blind people who volunteered to participate in this project. Furthermore, we translated parts of the published [VizWiz dataset](https://vizwiz.org/tasks-and-datasets/vqa/) which can be well fit into the Korean context, and create a full dataset to train Visual Question Answering (VQA) models in Korean language.
 
 # Visual question answering
 
-VQA understands a provided image and if a person asks question about this, it provides an answer after reasoning the image via natural language. 
+VQA understands a provided image and if a person asks question about this, it provides an answer after analyzing(or reasoning) the image via natural language. 
 
 ![VQA](assets/img/vqa.png)
 
@@ -20,7 +20,7 @@ VQA understands a provided image and if a person asks question about this, it pr
 
 As part of T-Brain’s projects on social value, KVQA dataset, a Korean version of VQA dataset was created. KVQA dataset consists of photos taken by Korean visually impaired people, questions about the photos, and 10 answers from 10 distinct annotators for each question.
 Currently, it consists of 30,000 sets of images and questions, and 300,000 answers, but by the end of this year, we will increase the dataset size to 100,000 sets of images and questions, and 1 million answers.
-This dataset can be used only for educational and research purposes. Please refer to the attached license for more details. We hope that the KVQA dataset can simultaneously provide an opportunity for further development of Korean VQA technology as well as social value in our society.
+This dataset can be used only for educational and research purposes. Please refer to the attached license for more details. We hope that the KVQA dataset can simultaneously provide opportunities for the development of Korean VQA technology as well as creation of meaningful social value in Korean society.
 
 
 ![Examples of KVQA](assets/img/kvqa_examples.png)
@@ -37,7 +37,7 @@ This dataset can be used only for educational and research purposes. Please refe
 
 ## Evaluation
 
-We measure accuracy using answers collected from 10 different people for each question. If the answer provided by a VQA model is equal to 3 or more answers from 10 annotators, it gets 100%, and if less than 3, it gets a partial score proportionately. To be consistent with ‘human accuracies’, measured accuracies are averaged over all 10 choose 9 sets of human annotators. Please refer to [VQA Evaluation](https://visualqa.org/evaluation.html) which we follow.
+We measure the model's accuracy by using answers collected from 10 different people for each question. If the answer provided by a VQA model is equal to 3 or more answers from 10 annotators, it gets 100%, and if less than 3, it gets a partial score proportionately. To be consistent with ‘human accuracies’, measured accuracies are averaged over all 10 choose 9 sets of human annotators. Please refer to [VQA Evaluation](https://visualqa.org/evaluation.html) which we follow.
 
 ## Data
 
