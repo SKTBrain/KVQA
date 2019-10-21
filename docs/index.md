@@ -18,7 +18,7 @@ SK텔레콤은 사회적 가치 추구를 위한 다양한 사업을 진행하�
 
 KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 프로젝트의 일환으로서, 한국형 시각적 질의응답(Visual Question Answering) 데이터셋입니다. KVQA 데이터셋은 한국 시각장애인들이 찍은 사진과 그 사진에 대한 질문과 서로 다른 열 명의 복수 답으로 구성되어 있습니다.
 현재는 총 3만 건의 이미지와 질문, 그리고 30만 건의 답변으로 구성되어 있으나, 올해 말까지 10만 건의 이미지와 질문, 그리고 100만 건의 답변으로 증대할 예정입니다.
-본 데이터셋은 교육 및 연구목적으로 사용이 가능하며, 자세한 내용은 첨부된 [라이선스](./index.html#라이센스)를 참조해주시기 바랍니다. KVQA 데이터셋을 통해 한국형 시각적 질의응답 기술 발전과 사회적 가치를 동시에 추구할 수 있기를 바랍니다.
+본 데이터셋은 교육 및 연구목적으로 사용이 가능하며, 자세한 내용은 첨부된 [라이선스](./index.html#라이선스)를 참조해주시기 바랍니다. KVQA 데이터셋을 통해 한국형 시각적 질의응답 기술 발전과 사회적 가치를 동시에 추구할 수 있기를 바랍니다.
 
 ![Examples of KVQA](assets/img/kvqa_examples.png)
 
@@ -146,7 +146,7 @@ To appear
 [Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)
 ![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)
 
-# 라이센스
+# 라이선스
 
 * [Korean VQA License](./license.html) for the KVQA Dataset
 * Creative Commons License Deed ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko)) for the VizWiz subset
