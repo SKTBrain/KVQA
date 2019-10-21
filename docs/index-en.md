@@ -20,7 +20,7 @@ VQA understands a provided image and if a person asks question about this, it pr
 
 As part of T-Brain’s projects on social value, KVQA dataset, a Korean version of VQA dataset was created. KVQA dataset consists of photos taken by Korean visually impaired people, questions about the photos, and 10 answers from 10 distinct annotators for each question.
 Currently, it consists of 30,000 sets of images and questions, and 300,000 answers, but by the end of this year, we will increase the dataset size to 100,000 sets of images and questions, and 1 million answers.
-This dataset can be used only for educational and research purposes. Please refer to the attached [license](./index-en.html#Licenses) for more details. We hope that the KVQA dataset can simultaneously provide opportunities for the development of Korean VQA technology as well as creation of meaningful social value in Korean society.
+This dataset can be used only for educational and research purposes. Please refer to the attached [license](./index-en.html#licenses) for more details. We hope that the KVQA dataset can simultaneously provide opportunities for the development of Korean VQA technology as well as creation of meaningful social value in Korean society.
 
 
 ![Examples of KVQA](assets/img/kvqa_examples.png)
