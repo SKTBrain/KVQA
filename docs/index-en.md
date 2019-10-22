@@ -10,6 +10,13 @@ SK Telecom pursues a goal of adding social value to our society through various 
 
 Since April 2019, we initiated a project in cooperation with [Testworks](http://www.testworks.co.kr), a social enterprise in Korea, and started to collect data from the blind people who volunteered to participate in this project. Furthermore, we translated parts of the published [VizWiz dataset](https://vizwiz.org/tasks-and-datasets/vqa/) which can be well fit into the Korean context, and create a full dataset to train Visual Question Answering (VQA) models in Korean language.
 
+# Paper
+
+## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
+
+To appear
+![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
+
 # Visual question answering
 
 VQA understands a provided image and if a person asks question about this, it provides an answer after analyzing (or reasoning) the image via natural language. 
@@ -21,7 +28,6 @@ VQA understands a provided image and if a person asks question about this, it pr
 As part of T-Brain’s projects on social value, KVQA dataset, a Korean version of VQA dataset was created. KVQA dataset consists of photos taken by Korean visually impaired people, questions about the photos, and 10 answers from 10 distinct annotators for each question.
 Currently, it consists of 30,000 sets of images and questions, and 300,000 answers, but by the end of this year, we will increase the dataset size to 100,000 sets of images and questions, and 1 million answers.
 This dataset can be used only for educational and research purposes. Please refer to the attached [license](./index-en.html#licenses) for more details. We hope that the KVQA dataset can simultaneously provide opportunities for the development of Korean VQA technology as well as creation of meaningful social value in Korean society.
-
 
 ![Examples of KVQA](assets/img/kvqa_examples.png)
 
@@ -136,18 +142,6 @@ We measure the model's accuracy by using answers collected from 10 different peo
     }
 ]
 ```
-
-# Paper
-
-## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
-
-To appear
-![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
-
-## Bilinear Attention Networks (Kim et al., 2018)
-
-[Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)
-![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)
 
 # Licenses
 

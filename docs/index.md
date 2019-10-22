@@ -8,6 +8,13 @@ SK텔레콤은 사회적 가치 추구를 위한 다양한 사업을 진행하�
 
 2019년 4월부터 이 기술의 현지화를 위해 사회적 기업인 [테스트웍스](http://www.testworks.co.kr)와 협업하여 자발적으로 지원한 우리나라의 시각장애인들로부터 데이터를 수집하였고, 영문으로 공개된 [VizWiz 데이터셋](https://vizwiz.org/tasks-and-datasets/vqa/) 중 현지화가 가능한 일부를 한국어로 번역하여 시각적 질의응답 기술을 한국어로 학습시킬 수 있는 데이터셋을 만들었습니다.
 
+# 논문
+
+## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
+
+To appear
+![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
+
 # 시각적 질의응답
 
 시각적 질의응답은 이미지가 주어지고 그 이미지에 대한 질문이 주어졌을 때, 이미지를 이해하여 자연어로 질문에 대한 답을 주는 기술입니다.
@@ -133,18 +140,6 @@ KVQA 데이터셋은 T-Brain이 진행하는 사회적 가치 추구를 위한 �
     }
 ]
 ```
-
-# 논문
-
-## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
-
-To appear
-![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
-
-## Bilinear Attention Networks (Kim et al., 2018)
-
-[Paper](http://papers.nips.cc/paper/7429-bilinear-attention-networks)
-![Bilinear Attention Networks](assets/img/BAN_NeurIPS_2018.png)
 
 # 라이선스
 
