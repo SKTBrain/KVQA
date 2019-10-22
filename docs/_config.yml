@@ -1,7 +1,7 @@
 title: KVQA Dataset
 description: 우리말을 사용하는 시각장애인들을 위한 시각 질의 응답 데이터셋
 show_downloads: true
-google_analytics:
+google_analytics: 150642064
 theme: jekyll-theme-cayman
 github:
   zip_url: https://skt.ai
