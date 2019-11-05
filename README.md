@@ -45,7 +45,7 @@ KVQA 데이터셋은 [이 링크](https://drive.google.com/drive/folders/1hqnCxl
 
 #### 다음 과정을 따르면 데이터를 쉽게 준비할 수 있습니다.
 
-1. [위](https://github.com/jnhwkim/kvqa#kvqa-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B-%EB%82%B4%EB%A0%A4%EB%B0%9B%EA%B8%B0)에서 다운받은 데이터의 경로를 아래와 같이 지정해주세요.
+1. [KVQA 데이터셋 내려받기](#kvqa-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B-%EB%82%B4%EB%A0%A4%EB%B0%9B%EA%B8%B0)에서 다운받은 데이터의 경로를 아래와 같이 지정해주세요.
 
 ```bash
 data
@@ -54,6 +54,7 @@ data
     ├── KVQA_resnet101_faster_rcnn_genome.tsv
     └── VizWiz_resnet101_faster_rcnn_genome.tsv
 ```
+전처리된 이미지 특징 파일(tsv)들을 다운받으시면 이미지 파일들을 다운 받으실 필요없이 학습을 진행할 수 있습니다.
 
 2. `download.sh`와 `process.sh` 스크립트를 실행해주세요.
 
