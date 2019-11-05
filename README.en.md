@@ -5,8 +5,8 @@
 
 This repository is an implementation of [Bilinear Attention Networks](http://arxiv.org/abs/1805.07932) for the visual question answering task using the KVQA dataset.
 
-![Examples of KVQA](misc/kvqa_examples.png)
-![Overview of bilinear attention networks](misc/ban_overview.png)
+![Examples of KVQA](docs/assets/img/kvqa_examples.png)
+![Overview of bilinear attention networks](docs/assets/img/ban_overview.png)
 
 The 5-fold cross-validation scores are shown as follows:
 
@@ -37,7 +37,7 @@ bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/me
 
 ### KVQA Dataset
 
-You can download the KVQA dataset via [this link](https://skt.ai). Please be aware that this is licensed via `Korean VQA License`.
+You can download the KVQA dataset via [this link](https://drive.google.com/drive/folders/1hqnCxlWq5JAxnj_wsXjteH0UFhS7RMHW?usp=sharing). Please be aware that this is licensed via `Korean VQA License`.
 
 ### Preprocessing
 

@@ -37,7 +37,7 @@ bash <(curl -s https://raw.githubusercontent.com/konlpy/konlpy/master/scripts/me
 
 ### KVQA 데이터셋 내려받기
 
-KVQA 데이터셋은 [이 링크](https://skt.ai)를 이용하여 내려받으실 수 있습니다. 별도 라이센스(Korean VQA License)가 적용되므로 유의하시기 바랍니다.
+KVQA 데이터셋은 [이 링크](https://drive.google.com/drive/folders/1hqnCxlWq5JAxnj_wsXjteH0UFhS7RMHW?usp=sharing)를 이용하여 내려받으실 수 있습니다. 별도 라이센스(Korean VQA License)가 적용되므로 유의하시기 바랍니다.
 
 ### 전처리
 
