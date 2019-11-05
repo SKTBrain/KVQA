@@ -41,10 +41,12 @@ You can download the KVQA dataset via [this link](https://drive.google.com/drive
 
 ### Preprocessing
 
-Our implementation uses the pretrained image features by [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention), the adaptive 10-100 features for the detected objects in an image. In addition to this, the pretrained Korean word vectors, [Word2vec](https://github.com/Kyubyong/wordvectors), [GloVe](https://ratsgo.github.io/embedding), [fastText](https://github.com/Kyubyong/wordvectors) and [BERT](https://github.com/google-research/bert).
+Our implementation uses the pretrained image features by [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention), the adaptive 10-100 features for the detected objects in an image.
+In addition to this, the pretrained Korean word vectors, [Word2vec](https://github.com/Kyubyong/wordvectors), [GloVe](https://ratsgo.github.io/embedding), [fastText](https://github.com/Kyubyong/wordvectors) and [BERT](https://github.com/google-research/bert).
 
-For simplicity, you can prepare the KVQA data as follows and use the below script to avoid a hassle:
+#### For simplicity, you can prepare the KVQA data as follows and use the below script to avoid a hassle:
 
+1. Place the downloaded files from [`KVQA Dataset`](#kvqa-dataset) as follows:
 ```bash
 data
 ├── KVQA_annotations.json
@@ -52,7 +54,9 @@ data
     ├── KVQA_resnet101_faster_rcnn_genome.tsv
     └── VizWiz_resnet101_faster_rcnn_genome.tsv
 ```
+Notice that if you download the preprocessed features (the tsv files), you don't need to download image sources.
 
+2. Run the two scripts, `download.sh` and `process.sh`.
 ```bash
 ./tools/download.sh
 ./tools/process.sh
