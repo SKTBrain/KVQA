@@ -43,7 +43,9 @@ KVQA 데이터셋은 [이 링크](https://drive.google.com/drive/folders/1hqnCxl
 
 이 구현은 [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention)에서 추출된 미리 학습된 이미지 특징을 사용합니다. 이미지 한 장 당 10개에서 100개의 가변적인 개수의 객체에 대한 이미지 특징들을 미리 구할 수 있습니다. 한글 단어 벡터를 위해서 다음의 코드 저장소를 참고하여 주십시오: [Word2vec](https://github.com/Kyubyong/wordvectors), [GloVe](https://ratsgo.github.io/embedding), [fastText](https://github.com/Kyubyong/wordvectors), 그리고 [BERT](https://github.com/google-research/bert). 
 
-KVQA 데이터를 아래와 같이 구비한 뒤, `download.sh`와 `process.sh` 스크립트를 이용하면 간단히 준비를 마칠 수 있습니다.
+#### 다음 과정을 따르면 데이터를 쉽게 준비할 수 있습니다.
+
+1. [위](https://github.com/jnhwkim/kvqa#kvqa-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B-%EB%82%B4%EB%A0%A4%EB%B0%9B%EA%B8%B0)에서 다운받은 데이터의 경로를 아래와 같이 지정해주세요.
 
 ```bash
 data
@@ -52,6 +54,8 @@ data
     ├── KVQA_resnet101_faster_rcnn_genome.tsv
     └── VizWiz_resnet101_faster_rcnn_genome.tsv
 ```
+
+2. `download.sh`와 `process.sh` 스크립트를 실행해주세요.
 
 ```bash
 ./tools/download.sh
