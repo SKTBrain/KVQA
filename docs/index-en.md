@@ -145,6 +145,6 @@ We measure the model's accuracy by using answers collected from 10 different peo
 
 # Licenses
 
-* Korean VQA License for the KVQA Dataset
+* [Korean VQA License](./license.html) for the KVQA Dataset
 * Creative Commons License Deed ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko)) for the VizWiz subset
 * GNU GPL v3.0 for the Code
