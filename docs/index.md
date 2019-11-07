@@ -12,7 +12,7 @@ SK텔레콤은 사회적 가치 추구를 위한 다양한 사업을 진행하�
 
 ## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
 
-To appear
+[PDF](https://drive.google.com/open?id=1CB9DwXTI1UqpsCEN9a5V9yOLS_T_HTu_)
 ![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
 
 # 시각적 질의응답
