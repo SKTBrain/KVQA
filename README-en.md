@@ -9,13 +9,13 @@ Since April 2019, we initiated a project in cooperation with [Testworks](http://
 ## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
 
 [PDF](https://drive.google.com/open?id=1CB9DwXTI1UqpsCEN9a5V9yOLS_T_HTu_)
-![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
+![AI for Social Good workshop at NeurIPS](docs/assets/img/AISG_NeurIPS_2019_KVQA.png)
 
 # Visual question answering
 
 VQA understands a provided image and if a person asks question about this, it provides an answer after analyzing (or reasoning) the image via natural language. 
 
-![VQA](assets/img/vqa.png)
+![VQA](docs/assets/img/vqa.png)
 
 # KVQA dataset
 

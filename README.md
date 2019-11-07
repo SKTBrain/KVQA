@@ -1,4 +1,4 @@
-This page is also provided in [English](README.md).
+This page is also provided in [English](README-en.md).
 
 SK텔레콤은 사회적 가치 추구를 위한 다양한 사업을 진행하고 있습니다. 기업이 먼저 앞장서서 사회 속에 혼재된 사회적 이슈를 발굴하고, 이를 해결하기 위한 사회적 책임을 지는 것이 지속가능한 경영의 출발이라고 생각합니다.
 
@@ -9,13 +9,13 @@ SK텔레콤은 사회적 가치 추구를 위한 다양한 사업을 진행하�
 ## AI for Social Good workshop at NeurIPS (Kim & Lim et al., 2019)
 
 [PDF](https://drive.google.com/open?id=1CB9DwXTI1UqpsCEN9a5V9yOLS_T_HTu_)
-![AI for Social Good workshop at NeurIPS](assets/img/AISG_NeurIPS_2019_KVQA.png)
+![AI for Social Good workshop at NeurIPS](docs/assets/img/AISG_NeurIPS_2019_KVQA.png)
 
 # 시각적 질의응답
 
 시각적 질의응답은 이미지가 주어지고 그 이미지에 대한 질문이 주어졌을 때, 이미지를 이해하여 자연어로 질문에 대한 답을 주는 기술입니다.
 
-![VQA](assets/img/vqa.png)
+![VQA](docs/assets/img/vqa.png)
 
 # KVQA 데이터셋
 
