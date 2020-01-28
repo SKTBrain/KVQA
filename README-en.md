@@ -23,19 +23,19 @@ As part of T-Brain’s projects on social value, KVQA dataset, a Korean version 
 Currently, it consists of 30,000 sets of images and questions, and 300,000 answers, but by the end of this year, we will increase the dataset size to 100,000 sets of images and questions, and 1 million answers.
 This dataset can be used only for educational and research purposes. Please refer to the attached license for more details. We hope that the KVQA dataset can simultaneously provide opportunities for the development of Korean VQA technology as well as creation of meaningful social value in Korean society.
 
-You can download KVQA dataset via [this link](https://drive.google.com/drive/folders/1hqnCxlWq5JAxnj_wsXjteH0UFhS7RMHW?usp=sharing).
+You can download KVQA dataset via [this link](https://drive.google.com/drive/folders/1IQazOJtNTBql51woveN4zb6NplxH7eVl?usp=sharing).
 
 ![Examples of KVQA](docs/assets/img/kvqa_examples.png)
 
 ## Data statistics
 
-### v0.1 (Oct. 2019)
+### v1.0 (Jan. 2020)
 
-|             | Overall (%)  | Yes/no (%)   | Number (%)   | Etc (%)        | Unanswerable (%) |
-|:------------|:-------------|:-------------|:-------------|:---------------|:--------------|
-| # images    | 30,031 (100) | 2,025 (6.74) | 2,029 (6.76) | 20,472 (68.17) | 5,505 (18.33) |
-| # questions | 30,031 (100) | 2,025 (6.74) | 2,029 (6.76) | 20,472 (68.17) | 5,505 (18.33) |
-| # answers   | 300,310 (100)| 20,250 (6.74)| 20,290 (6.76)| 204,720 (68.17)| 55,050 (18.33)| 
+|             | Overall (%)    | Yes/no (%)   | Number (%)   | Etc (%)        | Unanswerable (%) |
+|:------------|:---------------|:-------------|:-------------|:---------------|:-----------------|
+| # images    | 100,445 (100)  | 6,124 (6.10) | 9,332 (9.29) | 69,069 (68.76) | 15,920 (15.85)   |
+| # questions | 100,445 (100)  | 6,124 (6.10) | 9,332 (9.29) | 69,069 (68.76) | 15,920 (15.85)   |
+| # answers   | 1,004,450 (100)| 61,240 (6.10)| 93,320 (9.29)| 690,690 (68.76)| 159,200 (15.85)  |
 
 ## Evaluation
 
